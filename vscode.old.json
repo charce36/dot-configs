@@ -1,0 +1,50 @@
+{
+    // Themes
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "material-theme-icons",
+    // Editor
+    "editor.fontFamily": "Operator Mono",
+    "editor.cursorBlinking": "phase",
+    "editor.dragAndDrop": false,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    // Suggestions
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+    "php.suggest.basic": false,
+    // Formatting
+    "editor.formatOnSave": true,
+    // Emmet
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    // JSON
+    "json.format.enable": true,
+    // Npm
+    "npm-intellisense.scanDevDependencies": true,
+    // JavaScript
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+    // Window
+    "window.zoomLevel": 0,
+    // Terminal
+    "terminal.integrated.fontFamily": "Operator Mono",
+    "terminal.integrated.fontSize": 16,
+    // Telemetry
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    // Prettier
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.bracketSpacing": true,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.parser": "babylon",
+    "prettier.useFlowParser": false,
+    "prettier.semi": false,
+    "prettier.useTabs": false
+}

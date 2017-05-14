@@ -1,0 +1,20 @@
+# The next Aliases must be pasted at the end of ~/.bashrc file
+
+alias gvim='gvim -p --remote-tab-silent'
+alias ievms='curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | bash'
+
+
+# GIT BRANCH  FUNC
+parse_git_branch () {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# COLORS
+RED="\[\033[01;31m\]"
+YELLOW="\[\033[01;33m\]"
+GREEN="\[\033[01;32m\]"
+NO_COLOR="\[\033[00m\]"
+BLUE="\[\033[01;34m\]"
+
+# SET PS1 WITH GIT BRANCH AND COLORS.
+PS1="$BLUE\u@\h$GREEN:[\W]$RED\$(parse_git_branch)$NO_COLOR\$ "
